@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots li.slick-active button:before {
+    @apply !text-primary !opacity-100;
+   
+}
+
+
+.slick-dots li button:before {
+   @apply !text-primary/80 !h-5 !w-5;
+}
+
+
